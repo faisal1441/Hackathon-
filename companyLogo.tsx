@@ -5,11 +5,11 @@ const CompanyLogo = () => {
   return (
     <div className="w-full flex flex-wrap justify-center items-center gap-20 pt-14 px-4">
       <div className="flex justify-center items-center">
-        <Image src="/Logo (3).png" alt="Zaphier Logo" width={85} height={87} />
+        <Image src="/Logo (3) (1).png" alt="Zaphier Logo" width={85} height={87} />
       </div>
       <div className="flex justify-center items-center">
         <Image
-          src="/Logo (4).png"
+          src="/Logo (4) (1).png"
           alt="Pipe Drive Logo"
           width={107}
           height={109}
@@ -17,7 +17,7 @@ const CompanyLogo = () => {
       </div>
       <div className="flex justify-center items-center">
         <Image
-          src="/Logo (5).png"
+          src="/Logo (5) (1).png"
           alt="Cib Bank Logo"
           width={135}
           height={139}
@@ -25,7 +25,7 @@ const CompanyLogo = () => {
       </div>
       <div className="flex justify-center items-center">
         <Image
-          src="/Logo (6).png"
+          src="/Logo (6) (1).png"
           alt="Company 4 Logo"
           width={63}
           height={65}
@@ -33,7 +33,7 @@ const CompanyLogo = () => {
       </div>
       <div className="flex justify-center items-center">
         <Image
-          src="/Logo (7).png"
+          src="/Logo (7) (1).png"
           alt="Burnt Toast Logo"
           width={98}
           height={101}
@@ -41,14 +41,14 @@ const CompanyLogo = () => {
       </div>
       <div className="flex justify-center items-center">
         <Image
-          src="/Logo (8).png"
+          src="/Logo (8) (1).png"
           alt="Panda Doc Logo"
           width={113}
           height={115}
         />
       </div>
       <div className="flex justify-center items-center">
-        <Image src="/Logo (9).png" alt="Moz Logo" width={84} height={87} />
+        <Image src="/Logo (9) (1).png" alt="Moz Logo" width={84} height={87} />
       </div>
     </div>
   );

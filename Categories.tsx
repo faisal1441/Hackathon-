@@ -1,25 +1,24 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 
 export default function Categories() {
   const categories = [
     {
       name: "Wing Chair",
       products: "3,584 Products",
-      image: "/07.jpg",
+      image: "/07 .jpg",
       href: "/categories/wing-chair",
     },
     {
       name: "Wooden Chair",
       products: "157 Products",
-      image: "/08.jpg",
+      image: "/08 .jpg",
       href: "/categories/wooden-chair",
     },
     {
       name: "Desk Chair",
       products: "154 Products",
-      image: "/04.jpg",
+      image: "/04 .jpg",
       href: "/categories/desk-chair",
     },
   ];
@@ -34,7 +33,7 @@ export default function Categories() {
           {categories.map((category) => (
             <Link
               key={category.name}
-              href={"../components/productDectription/discription"}
+              href={"../components/productDiscription/discription"}
               className="group relative overflow-hidden rounded-lg"
             >
               <div className="aspect-[4/3] w-full">
